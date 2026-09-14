@@ -21,3 +21,4 @@ def delete_user(user_id):
     conn.commit()
 # trigger phase 4 tooling run
 # trigger phase 4.1 timing measurement
+# trigger phase 5 pipeline verification
