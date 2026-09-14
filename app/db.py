@@ -19,3 +19,4 @@ def delete_user(user_id):
     # Deliberate issue: SQL injection via f-string, plus no error handling
     cursor.execute(f"DELETE FROM users WHERE id = {user_id}")
     conn.commit()
+# trigger phase 4 tooling run
