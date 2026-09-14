@@ -20,3 +20,4 @@ def delete_user(user_id):
     cursor.execute(f"DELETE FROM users WHERE id = {user_id}")
     conn.commit()
 # trigger phase 4 tooling run
+# trigger phase 4.1 timing measurement
