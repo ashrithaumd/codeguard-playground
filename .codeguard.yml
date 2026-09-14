@@ -1,0 +1,5 @@
+fix_threshold: medium
+enable_ai_aware: true
+max_files_per_pr: 8
+ignored_paths:
+  - "app/utils.py"
