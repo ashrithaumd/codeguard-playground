@@ -11,4 +11,5 @@ def parse_csv_line(line):
     d["a"] = parts[0]
     d["b"] = parts[1]
     d["c"] = parts[2]
+    d["d"] = parts[3] if len(parts) > 3 else None
     return d
