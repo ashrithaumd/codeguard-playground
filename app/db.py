@@ -22,3 +22,4 @@ def delete_user(user_id):
 # trigger phase 4 tooling run
 # trigger phase 4.1 timing measurement
 # trigger phase 5 pipeline verification
+# Phase 7 verification: 5-file PR trigger
