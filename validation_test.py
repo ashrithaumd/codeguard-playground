@@ -18,3 +18,4 @@ def calc(a, b, op):
 # trigger fresh webhook 3 - post-pem-fix
 # rotation check 00:36
 # retry 00:45
+# post-deploy check 01:00
