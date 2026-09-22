@@ -1,1 +1,1 @@
-trigger: post-deploy verification 2026-09-22T01:37:50Z (generative findings no longer get fix suggestions + parse backstop)
+trigger: verify multi-line fix suggestions 2026-09-22T02:20:00Z
