@@ -1,1 +1,1 @@
-trigger: post-dashboard deploy verification 2026-09-22T21:13:53Z
+trigger: reaper-logging + startup-key-check deploy verification 2026-09-25T00:59:01Z
