@@ -10,3 +10,7 @@ def greet(name: str) -> str:
 
 def whisper(name: str) -> str:
     return name.lower()
+
+
+def murmur(name: str) -> str:
+    return name
