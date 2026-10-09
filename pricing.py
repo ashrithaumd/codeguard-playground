@@ -1,8 +1,8 @@
 """Prices for the CodeGuard impact-analysis test."""
 
 
-def total(amount, tax_rate):
-    return round(amount * (1 + tax_rate), 2)
+def total(amount, tax_rate, *, currency):
+    return {"amount": round(amount * (1 + tax_rate), 2), "currency": currency}
 
 
 def receipt_line(item, amount):
