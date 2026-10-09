@@ -10,3 +10,7 @@ def greet(name: str) -> str:
 
 def hum(name: str) -> str:
     return f"hmm, {name}"
+
+
+def sigh(name: str) -> str:
+    return name
