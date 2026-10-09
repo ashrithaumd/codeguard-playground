@@ -6,4 +6,4 @@ def total(amount, tax_rate):
 
 
 def receipt_line(item, amount):
-    return f"{item}: {amount:.2f}"
+    return f"{item:<20} {amount:>8.2f}"
