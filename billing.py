@@ -3,7 +3,7 @@
 import uuid
 
 
-def charge(customer_id: str, amount_cents: int, currency: str = "usd") -> dict:
+def charge(customer_id: str, amount_cents: int, currency: str) -> dict:
     if amount_cents <= 0:
         raise ValueError("amount must be positive")
     return {
